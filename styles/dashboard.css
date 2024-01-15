@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@200;400;500;600;700;800;900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Mulish', sans-serif;
+}
+header, main{
+    margin: 0 136px;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 1.2rem;  
+}
+.nav-title{
+    display: flex;
+    width: 50%;
+}
+.title-img{
+    /* margin-top: 1.4rem; */
+    width: 48px;
+    height: 56.008px;
+}
+.section-title{
+    color: #131318;
+    font-size: 36px;
+    font-weight: 800;
+    padding-left: 1rem;
+}
+.text-travel{
+    color: #FF5400;
+}
+.nav-link{
+    width: 50%;
+    
+}
+.nav-link ul{
+display: flex;
+justify-content: space-between;
+}
+
+.nav-link li{
+    list-style: none;
+    /* margin-right: 136px; */
+
+}
+
+.nav-link li a{
+    text-decoration: none;
+    font-size: 18px;
+    color: #424247;
+}
+.title-home{
+    color: #FF5400;
+}
+
+.banner{
+    
+    background: linear-gradient(180deg, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 0.00) 100%),url("/Images/banner.png");
+    background-position: bottom center;
+    background-size: cover;
+    height: 70vh;
+    width: auto;
+    margin: 8px;
+    border-radius: 16px;
+    margin-top: 4rem;
+    text-align: center;
+    padding-top: 5rem;
+}
+.banner-title{
+    color: #FFF;
+    font-size: 3rem;
+    font-weight: 800;
+}
+.banner-text{
+    color: #FFF;
+    padding: 24px 247px;
+}
+.banner-search{
+    height: 84px;
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.30);
+    margin:0 185px;
+    display: flex;
+}
+.banner-search-where-go, .banner-search-when, .banner-search-select-type, .btn-primary{
+    width: 174px;
+    height: 52px;
+    border-radius: 8px;
+    background: #FFF;
+    margin-top: 1rem;
+    margin-left: 2rem;
+    padding-left: 1rem;
+    border: none;
+}
+.btn-primary{
+    background: #FF5400;
+}
+
+@media screen and (max-width: 600px) {
+
+    header, main{
+        margin: 0 20px;
+    }
+    .nav-title{
+        /* display: flex; */
+        width: 100%;
+    }
+    .nav-link{
+        display: none;
+    }
+
+
+   .banner{
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    height: auto;
+    width: auto;
+   }
+   .banner-text{
+    padding: 20px;
+   }
+   .banner-search{
+    flex-direction: column;
+    width: auto;
+    height: auto;
+    margin: 20px ;
+    gap: 20px;
+   }
+   .banner-search-where-go{
+    margin-top: 50px;
+   }
+   .banner-search-where-go, .banner-search-when, .banner-search-select-type, .btn-primary{
+    width:auto;
+    margin-right: 20px;
+    
+   }
+}
