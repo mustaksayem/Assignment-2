@@ -200,7 +200,13 @@ margin-left: 4rem;
         color: #5A5A5D;
 
     }
-    
+    .discount-text{
+        text-align: center;
+    }
+    .discount-text h1{
+        color: #131318;
+        font-weight: 800px;
+    }
     .discount-section-img1, .discount-section-img2{
         background: url("/Images/discount_img_1.png"), lightgray 50% / cover no-repeat;
         background-position: bottom center;
@@ -370,6 +376,38 @@ font-size: 24px;
 font-weight: 400;
 
 }
+
+/* Footer Section Styles */
+footer {
+    margin: 100px 0 0;
+    padding: 0 100px;
+    background-color: rgba(19, 19, 24, 0.05);
+    text-align: center;
+    width: 100%;
+    height: 70%;
+  }
+  .footer-top {
+    padding-top: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .footer-desc {
+    margin: 15px 0 33px;
+  }
+  .social-icon i {
+    margin-bottom: 50px;
+    gap: 2rem;
+    padding-left: 23px;
+  }
+  .copyright {
+    color: #131318;
+    /* font-size: 16px; */
+    margin: 3rem 0 0;
+    padding-bottom: 2rem;
+  }
+
 @media screen and (max-width: 600px) {
 
     header, main{
@@ -494,6 +532,10 @@ font-weight: 400;
    }
    .newsletter-img{
     width: 100%;
+}
+.footer{
+    margin: 0;
+    padding: 0px;
 }
 
 
